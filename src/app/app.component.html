@@ -1,0 +1,21 @@
+<div class = "container">
+  <div class = "header">
+    <span id = "heading">Do you wanna see the fruit List?</span>
+    <span><button id = "show" type = "submit" (click)="fruitList()">Show</button></span>
+    <span id = "cart-box"><img id = "cart" src = "./assets/cart.png"><span style = "margin-left:15px">{{count}}</span></span>
+  </div>
+  
+  <div class = "fruitList">
+    <div class = "fruitBox" *ngFor = "let fruit of fruits">
+      <div class = "box">
+        <div id = "variety" *ngFor = "let variety of fruit | keyvalue">
+          <span id = "addToCart"><button id = "button" (click) = "addItem()">Add To Cart</button></span>
+          <img id = "pic" src = "./assets/banana.jfif">
+          {{variety.key}} <div>Rs.{{variety.value}}</div> 
+          
+        </div>      
+      </div>
+    </div>
+  </div>
+  
+</div>

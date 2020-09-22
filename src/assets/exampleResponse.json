@@ -1,0 +1,28 @@
+ {
+      "fruitList":[
+         {
+            "banana" :"10",
+            "watermelon" :"10",
+            "pineapple" :"10",
+            "apple" :"10"
+         },
+         {
+            "cbbage3" :"20",
+            "cbbage" :"20",
+            "cbbage1" :"20",
+            "cbbage2" :"20"
+         },
+         {
+            "potato" :"30",
+            "potato3" :"30",
+            "potato1" :"30",
+            "potato2" :"30"
+         },
+         {
+            "potato" :"40",
+            "potato3" :"40",
+            "potato1" :"40",
+            "potato2" :"40"
+         }
+      ]
+   }

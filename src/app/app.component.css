@@ -1,0 +1,60 @@
+.header{
+    margin-bottom:10px
+}
+#heading{
+    margin-right:10px;
+}
+#cart-box{
+    /* border:1px solid black; */
+    width:100px;
+    float:right;
+    color:red
+}
+#cart{
+    width:25px;
+    height:25px;
+   
+}
+.box{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    text-transform:capitalize;
+    text-align:center;
+}
+#pic{
+    filter:grayscale(100%);
+   
+   backface-visibility: hidden;
+}
+#pic:hover{
+    filter:none
+}
+
+#variety{
+    width: 25%;
+    /* height: 100px; */
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    position:relative
+
+}
+#variety:hover > #addToCart, #addToCart:hover {
+    display: inline-block;
+    backface-visibility: hidden;
+}
+#addToCart{
+    display:none;
+    top: 70%;
+    left: 70%;
+    position: absolute;
+    opacity: 1;
+    border:1px solid grey;
+    border-radius:5px;
+    backface-visibility: hidden;
+}
+#button{
+    border:none
+}
